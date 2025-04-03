@@ -6,3 +6,6 @@
 3. Для запуска шифрования можно использовать примерно такую команду:
    ```bash
    python -c "from hw import caesar_cipher; print(caesar_cipher('hello', 3))"
+4. Для запуска тестов выполните команду
+    ```bash
+    python -m unittest test_hw.py
